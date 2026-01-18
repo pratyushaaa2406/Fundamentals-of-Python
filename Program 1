@@ -1,0 +1,9 @@
+#Program 1: AREA OF A CIRCLE
+
+#Let user define the radius
+radius=float(input("Enter the radius: "))
+
+area_circle=3.14*radius**2
+print("Area of Circle is ",area_circle)
+
+print("End of Program!")
