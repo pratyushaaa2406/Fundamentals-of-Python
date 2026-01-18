@@ -1,0 +1,11 @@
+#Program 2:Swap two variables using a temporary variable
+
+#User input for variable 'a' and 'b'
+a=input("Enter a: ")
+b=input("Enter b: ")
+
+temp=a
+a=b
+b=temp
+
+print("After swapping: a=" ,a," b=" ,b)
