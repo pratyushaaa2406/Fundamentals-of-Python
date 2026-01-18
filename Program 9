@@ -1,0 +1,13 @@
+#Program 9: Angle of the Hour Hand
+
+#Let user input hours , minutes and seconds
+Hours=int(input("Hours: ")) #between 1 to 12
+Minutes=int(input("Minutes: "))
+Seconds=int(input("Seconds: "))
+
+total_hours=Hours+Minutes/60+Seconds/3600
+
+#Since for each hour , the hour hand covers 30 degree angle , then
+Angle=int(total_hours*30)
+
+print(f"Angle of hour hand is {Angle} degree")
