@@ -1,0 +1,31 @@
+#Program 10: Find the fourth vertex of the rectangle
+
+print("Enter coordinates of first vertex")
+X1=int(input("X1: "))
+Y1=int(input("Y1: "))
+
+print("Enter coordinates of second vertex")
+X2=int(input("X2: "))
+Y2=int(input("Y2: "))
+
+print("Enter coordinates of third vertex")
+X3=int(input("X3: "))
+Y3=int(input("Y3: "))
+
+#Find X4 ( Value of X which only occurs once)
+if X1==X2:
+    X4=X3
+elif X1==X3:
+    X4=X2
+else:
+    X4=X1
+
+#Find Y4 ( Value of Y which only occurs once )
+if Y1==Y2:
+    Y4=Y3
+elif Y1==Y3:
+     Y4=Y2
+else:
+    Y4=Y1
+
+print(f"The fourth vertex is {X4,Y4}")
